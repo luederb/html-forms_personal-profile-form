@@ -23,7 +23,13 @@
           <label for="last-name">Last Name:</label>
           <input id="last-name" type="text" name="last-name" />
           <label for="birthday">Your Birthday::</label>
-          <input id="birthday" type="date" name="birthday" />
+          <input
+            id="birthday"
+            type="date"
+            name="birthday"
+            required
+            pattern="\d{2}/\d{2}/\d{4}"
+          />
         </fieldset>
         <p>
           Can you tell us a little bit more? We want to annoy you with unwanted
